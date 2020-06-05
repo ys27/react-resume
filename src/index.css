@@ -9,3 +9,21 @@
   src: local("CourierPrime"),
     url(fonts/CourierPrime-Regular.ttf) format("truetype");
 }
+
+@page {
+  margin: 0 0 0 0;
+}
+
+@media print {
+  header {
+    position: fixed;
+    top: 0;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+  .resume {
+    border: none !important;
+  }
+}

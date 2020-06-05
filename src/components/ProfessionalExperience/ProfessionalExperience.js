@@ -98,11 +98,13 @@ export const ExperienceTitle = ({ title }) => {
   return (
     <div className="experience-title">
       <div className="company">{company}</div>
-      {durations.map((duration, index) => (
-        <div key={index} className="duration">
-          {duration}
-        </div>
-      ))}
+      <div className="durations">
+        {durations.map((duration, index) => (
+          <div key={index} className="duration">
+            {duration}
+          </div>
+        ))}
+      </div>
       <div className="role">{role}</div>
     </div>
   );

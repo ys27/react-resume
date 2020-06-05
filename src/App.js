@@ -17,7 +17,6 @@ const App = () => {
       <div className="App">
         <Resume font="anonymous" />
         {/* <Resume font="courier" /> */}
-        <div></div>
       </div>
     </>
   );
