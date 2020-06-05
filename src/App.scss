@@ -1,0 +1,36 @@
+.App {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr 1fr;
+
+  .resume {
+    font-family: AnonymousPro;
+    padding: 1rem;
+    width: 850px;
+    height: 1100px;
+    border: 1px solid grey;
+
+    > div {
+      margin-bottom: 0.75rem;
+    }
+
+    ul {
+      padding-left: 1rem;
+
+      li {
+        margin-top: 0.25rem;
+      }
+    }
+  }
+}
+
+@mixin section-side-title-border {
+  border-top: 1px solid grey;
+  padding-top: 1rem;
+}
+
+@mixin section-side-title {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 4fr;
+}

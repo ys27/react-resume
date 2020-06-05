@@ -1,0 +1,10 @@
+@import "src/App";
+
+.education {
+  @include section-side-title-border;
+  @include section-side-title;
+
+  .award {
+    font-size: 0.9rem;
+  }
+}

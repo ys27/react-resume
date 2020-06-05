@@ -1,0 +1,14 @@
+.subinfo {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+
+  .subinfo-text {
+    align-self: center;
+  }
+
+  .icon-subinfo {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 20px auto;
+  }
+}

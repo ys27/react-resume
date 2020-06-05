@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import Name from "./components/Name/Name";
+import SubInfo from "./components/SubInfo/SubInfo";
+import Skills from "./components/Skills/Skills";
+import ProfessionalExperience from "./components/ProfessionalExperience/ProfessionalExperience";
+import EarlierExperience from "./components/EarlierExperience/EarlierExperience";
+import RecentProjects from "./components/RecentProjects/RecentProjects";
+import Education from "./components/Education/Education";
+import Keywords from "./components/Keywords/Keywords";
+
+import "./App.scss";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Resume />
+        <div></div>
+      </div>
+    </>
   );
-}
+};
 
 export default App;
+
+const Resume = () => (
+  <div className="resume">
+    <Name />
+    <SubInfo />
+    <Skills />
+    <ProfessionalExperience />
+    <EarlierExperience />
+    <RecentProjects />
+    <Education />
+    <Keywords />
+  </div>
+);

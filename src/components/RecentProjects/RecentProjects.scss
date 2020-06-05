@@ -1,0 +1,17 @@
+@import "src/App";
+
+.recent-projects {
+  @include section-side-title-border;
+  @include section-side-title;
+
+  .projects {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-rows: repeat(3, 1fr);
+
+    .description {
+      margin-top: 0.5rem;
+      font-size: 0.75rem;
+    }
+  }
+}
