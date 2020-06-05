@@ -4,7 +4,6 @@
   grid-template-columns: 1fr 1fr;
 
   .resume {
-    font-family: AnonymousPro;
     padding: 1rem;
     width: 850px;
     height: 1100px;
@@ -21,6 +20,14 @@
         margin-top: 0.25rem;
       }
     }
+  }
+
+  .resume.anonymous {
+    font-family: AnonymousPro;
+  }
+
+  .resume.courier {
+    font-family: CourierPrime;
   }
 }
 

@@ -28,8 +28,7 @@ const ProfessionalExperience = () => (
             mainLine:
               "Financial Crimes Insights: As Scrum Master, organized and managed sprint events and outcomes;",
             subLines: [
-              "Entity Enrichment: Full-stack production REST API & demo UI [React/Redux, MongoDB, Node/Connect];",
-              "NPM Package development for entity disambiguation.",
+              "Entity Enrichment: Full-stack production REST API & demo UI, custom NPM packages [React/Redux, MongoDB, Node/Connect];",
               "Transaction List Screening: Full-stack production UI & REST API [React/Redux, MongoDB, Flask, IBM Carbon];",
             ],
           },

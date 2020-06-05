@@ -15,7 +15,8 @@ const App = () => {
   return (
     <>
       <div className="App">
-        <Resume />
+        <Resume font="anonymous" />
+        {/* <Resume font="courier" /> */}
         <div></div>
       </div>
     </>
@@ -24,8 +25,8 @@ const App = () => {
 
 export default App;
 
-const Resume = () => (
-  <div className="resume">
+const Resume = ({ font }) => (
+  <div className={`resume ${font}`}>
     <Name />
     <SubInfo />
     <Skills />
