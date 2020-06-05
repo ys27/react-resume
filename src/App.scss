@@ -5,15 +5,21 @@
     height: 1100px;
     border: 1px solid grey;
 
-    > div {
-      margin-bottom: 0.75rem;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-    ul {
-      padding-left: 1rem;
+    .structured {
+      > div {
+        margin-bottom: 0.7rem;
+      }
 
-      li {
-        margin-top: 0.25rem;
+      ul {
+        padding-left: 1rem;
+
+        li {
+          margin-top: 0.25rem;
+        }
       }
     }
   }

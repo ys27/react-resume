@@ -26,13 +26,15 @@ export default App;
 
 const Resume = ({ font }) => (
   <div className={`resume ${font}`}>
-    <Name />
-    <SubInfo />
-    <Skills />
-    <ProfessionalExperience />
-    <EarlierExperience />
-    <RecentProjects />
-    <Education />
+    <div className="structured">
+      <Name />
+      <SubInfo />
+      <Skills />
+      <ProfessionalExperience />
+      <EarlierExperience />
+      <RecentProjects />
+      <Education />
+    </div>
     <Keywords />
   </div>
 );

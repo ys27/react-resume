@@ -7,4 +7,20 @@
   .award {
     font-size: 0.9rem;
   }
+
+  .school {
+    margin-top: 0.5rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 20px auto;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .school-name {
+      align-self: center;
+    }
+  }
 }
