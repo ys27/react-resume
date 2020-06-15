@@ -15,8 +15,8 @@ const App = () => {
   return (
     <>
       <div className="App">
-        <Resume font="anonymous" />
-        {/* <Resume font="courier" /> */}
+        {/* <Resume fontFamily="AnonymousPro" /> */}
+        <Resume fontFamily="Nunito" />
       </div>
     </>
   );
@@ -24,17 +24,30 @@ const App = () => {
 
 export default App;
 
-const Resume = ({ font }) => (
-  <div className={`resume ${font}`}>
+const Resume = ({ fontFamily }) => (
+  <div className="resume" style={styles[fontFamily]}>
     <div className="structured">
       <Name />
       <SubInfo />
       <Skills />
-      <ProfessionalExperience />
-      <EarlierExperience />
-      <RecentProjects />
-      <Education />
+      <div className="grid">
+        <ProfessionalExperience />
+        <div className="line"></div>
+        <EarlierExperience />
+        <div className="line"></div>
+        <RecentProjects />
+        <div className="line"></div>
+        <Education />
+      </div>
     </div>
     <Keywords />
   </div>
 );
+
+const styles = {
+  AnonymousPro: {
+    fontFamily: "AnonymousPro",
+    fontSize: "0.8rem",
+  },
+  Nunito: { fontFamily: "Nunito", fontSize: "0.9rem" },
+};

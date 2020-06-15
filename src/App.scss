@@ -1,6 +1,6 @@
 .App {
   .resume {
-    padding: 1rem;
+    padding: 0.8rem;
     width: 850px;
     height: 1100px;
     border: 1px solid grey;
@@ -9,37 +9,44 @@
     flex-direction: column;
     justify-content: space-between;
 
-    .structured {
-      > div {
-        margin-bottom: 0.7rem;
-      }
+    ul {
+      padding-left: 1rem;
+    }
 
-      ul {
-        padding-left: 1rem;
-
-        li {
-          margin-top: 0.25rem;
-        }
+    .structured,
+    .grid {
+      > div:not(.line) {
+        margin-bottom: 0.5rem;
       }
     }
-  }
 
-  .resume.anonymous {
-    font-family: AnonymousPro;
-  }
+    .grid {
+      display: grid;
+      gap: 0.75rem;
+      grid-template-columns: fit-content(10rem) auto;
+    }
 
-  .resume.courier {
-    font-family: CourierPrime;
+    .line {
+      border-top: 1px solid grey;
+      grid-column: span 2;
+    }
   }
 }
 
-@mixin section-side-title-border {
-  border-top: 1px solid grey;
-  padding-top: 0.5rem;
-}
+@mixin experience-title {
+  text-align: center;
+  .company {
+    font-size: 1.25rem;
+  }
 
-@mixin section-side-title {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr 4fr;
+  .durations {
+    margin-top: 0.25rem;
+    color: grey;
+    font-size: 0.7rem;
+  }
+
+  .role {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+  }
 }

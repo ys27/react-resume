@@ -1,47 +1,37 @@
 @import "src/App";
 
 .professional-experience {
+  display: contents;
+  grid-column: span 2;
+
+  .section-title {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid grey;
+  }
+
   .experiences {
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
-    border-top: 1px solid grey;
-    display: grid;
-    gap: 1rem;
-    grid-template-rows: repeat(3, auto);
+    display: contents;
 
     .experience-section {
-      @include section-side-title;
+      display: contents;
+      grid-column: span 2;
 
       > div {
         padding: 0.25rem;
+        align-self: center;
+      }
+
+      .experience-title {
+        @include experience-title;
       }
 
       .experience-desc {
-        margin-top: 0.2rem;
         margin-bottom: 0;
-        font-size: 0.8rem;
 
         .subline {
           margin-left: 0.25rem;
         }
       }
     }
-  }
-}
-
-.experience-title {
-  .company {
-    font-size: 1.25rem;
-  }
-
-  .durations {
-    margin-top: 0.5rem;
-    color: grey;
-    font-size: 0.9rem;
-  }
-
-  .role {
-    margin-top: 0.5rem;
-    font-size: 0.75rem;
   }
 }

@@ -25,7 +25,7 @@ const ExperienceSection = ({ experience }) => (
   </div>
 );
 
-export const ExperienceTitle = ({ title }) => {
+const ExperienceTitle = ({ title }) => {
   const { company, durations, role } = title;
   return (
     <div className="experience-title">

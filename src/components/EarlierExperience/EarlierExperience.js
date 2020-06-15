@@ -1,7 +1,6 @@
 import React from "react";
 
 import SectionTitle from "../SectionTitle/SectionTitle";
-import { ExperienceTitle } from "../ProfessionalExperience/ProfessionalExperience";
 import Data from "./Data";
 
 import "./EarlierExperience.scss";
@@ -12,10 +11,27 @@ const EarlierExperience = () => (
     <SectionTitle title="Earlier Experience" />
     <div className="experiences">
       {Data.map((experience) => (
-        <ExperienceTitle title={experience.title} />
+        <EarlierExperienceCard title={experience.title} />
       ))}
     </div>
   </div>
 );
 
 export default EarlierExperience;
+
+const EarlierExperienceCard = ({ title }) => {
+  const { company, durations, role } = title;
+  return (
+    <div className="earlier-experience-card">
+      <div className="company">{company}</div>
+      <div className="durations">
+        {durations.map((duration, index) => (
+          <div key={index} className="duration">
+            {duration}
+          </div>
+        ))}
+      </div>
+      <div className="role">{role}</div>
+    </div>
+  );
+};

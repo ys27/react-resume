@@ -1,6 +1,7 @@
 .subinfo {
   display: grid;
   grid-template-columns: repeat(5, auto);
+  font-size: 1.1rem;
 
   .subinfo-text {
     align-self: center;

@@ -8,7 +8,7 @@ const Data = [
     descriptions: [
       {
         mainLine:
-          "Open Banking: Studied the OB specs for <b>research</b> and architectural design;",
+          "Open Banking: Studied the OB specs for research and architectural design;",
         subLines: [
           "[JS, Java, Couch] Design/Built micro-service REST APIs, auth and certificate management;",
           "[React/Redux, Couch] Produced conceptual UI with circumvention for existing limitations;",
@@ -48,7 +48,7 @@ const Data = [
   },
   {
     title: {
-      company: "International Financial Data Services",
+      company: "Intl. Financial Data Services",
       durations: ["Sept 2016 - Dec 2016", "Jan 2016 - Apr 2016"],
       role: "R&D Developer Co-op",
     },

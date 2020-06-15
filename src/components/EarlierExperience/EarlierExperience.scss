@@ -1,16 +1,16 @@
 @import "src/App";
 
 .earlier-experience {
-  @include section-side-title-border;
-  @include section-side-title;
+  display: contents;
+
+  .section-title {
+    grid-column: span 1;
+  }
 
   .experiences {
+    @include experience-title;
     display: grid;
+    gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
-
-    .experience {
-      display: flex;
-      flex-direction: column;
-    }
   }
 }
