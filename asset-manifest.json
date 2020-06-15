@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.7086383b.chunk.css",
-    "main.js": "/react-resume/static/js/main.c40e8628.chunk.js",
-    "main.js.map": "/react-resume/static/js/main.c40e8628.chunk.js.map",
+    "main.css": "/react-resume/static/css/main.3307c2df.chunk.css",
+    "main.js": "/react-resume/static/js/main.24078cb2.chunk.js",
+    "main.js.map": "/react-resume/static/js/main.24078cb2.chunk.js.map",
     "runtime-main.js": "/react-resume/static/js/runtime-main.a2f95e7a.js",
     "runtime-main.js.map": "/react-resume/static/js/runtime-main.a2f95e7a.js.map",
     "static/js/2.37f28ee0.chunk.js": "/react-resume/static/js/2.37f28ee0.chunk.js",
     "static/js/2.37f28ee0.chunk.js.map": "/react-resume/static/js/2.37f28ee0.chunk.js.map",
     "index.html": "/react-resume/index.html",
-    "precache-manifest.f711a108105caff227ddf2aecb42f23f.js": "/react-resume/precache-manifest.f711a108105caff227ddf2aecb42f23f.js",
+    "precache-manifest.b45c3fcac1fc4637159d56772cc5a5ac.js": "/react-resume/precache-manifest.b45c3fcac1fc4637159d56772cc5a5ac.js",
     "service-worker.js": "/react-resume/service-worker.js",
-    "static/css/main.7086383b.chunk.css.map": "/react-resume/static/css/main.7086383b.chunk.css.map",
+    "static/css/main.3307c2df.chunk.css.map": "/react-resume/static/css/main.3307c2df.chunk.css.map",
     "static/js/2.37f28ee0.chunk.js.LICENSE.txt": "/react-resume/static/js/2.37f28ee0.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/react-resume/static/media/CourierPrime-Regular.03ef685b.ttf",
+    "static/media/index.css": "/react-resume/static/media/OpenSans-Regular.3ed9575d.ttf",
     "static/media/uw-logo.png": "/react-resume/static/media/uw-logo.69c53a32.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a2f95e7a.js",
     "static/js/2.37f28ee0.chunk.js",
-    "static/css/main.7086383b.chunk.css",
-    "static/js/main.c40e8628.chunk.js"
+    "static/css/main.3307c2df.chunk.css",
+    "static/js/main.24078cb2.chunk.js"
   ]
 }
