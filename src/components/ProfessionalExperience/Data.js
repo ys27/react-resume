@@ -27,7 +27,7 @@ const Data = [
   },
   {
     title: {
-      company: "Desire2Learn",
+      company: "D2L",
       durations: ["Sept 2017 - Dec 2017"],
       role: "Software Developer Co-op",
     },
@@ -48,7 +48,7 @@ const Data = [
   },
   {
     title: {
-      company: "Intl. Financial Data Services",
+      company: "IFDS",
       durations: ["Sept 2016 - Dec 2016", "Jan 2016 - Apr 2016"],
       role: "R&D Developer Co-op",
     },
