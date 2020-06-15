@@ -12,7 +12,7 @@ const Data = [
   {
     title: "RedditUserTransfer",
     desc:
-      "[MERN] Transfer saved posts and comments, subscriptions, and user preferences to another account;",
+      "[MERN] Transfer saved posts & comments, subscriptions, and preferences to other accounts;",
   },
 ];
 

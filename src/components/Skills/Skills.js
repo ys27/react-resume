@@ -13,7 +13,7 @@ const Skills = () => (
         items={["C++", "C#", "Dart", "Java", "JavaScript [+TS]", "Python"]}
       />
       <SkillSection
-        title="Frameworks/Libs"
+        title="Frameworks & Libraries"
         items={["Jest", "Node", "React", "Redux", "Sagas", "Sass"]}
       />
       <SkillSection

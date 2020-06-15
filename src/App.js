@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <div className="App">
-        <Resume fontFamily="Nunito" />
+        <Resume />
       </div>
     </>
   );
@@ -23,8 +23,8 @@ const App = () => {
 
 export default App;
 
-const Resume = ({ fontFamily }) => (
-  <div className="resume" style={{ fontFamily }}>
+const Resume = () => (
+  <div className="resume">
     <div className="structured">
       <Name />
       <SubInfo />

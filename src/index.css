@@ -22,6 +22,30 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "OpenSans";
+  src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(fonts/Open_Sans/OpenSans-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(fonts/Open_Sans/OpenSans-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(fonts/Open_Sans/OpenSans-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
 @page {
   margin: 0;
 }
