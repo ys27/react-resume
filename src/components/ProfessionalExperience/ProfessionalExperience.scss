@@ -1,20 +1,16 @@
 @import "src/App";
 
 .professional-experience {
-  display: contents;
-  grid-column: span 2;
-
   .section-title {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid grey;
   }
 
   .experiences {
-    display: contents;
+    @include grid;
 
     .experience-section {
       display: contents;
-      grid-column: span 2;
 
       > div {
         padding: 0.25rem;

@@ -1,28 +1,4 @@
 @font-face {
-  font-family: "AnonymousPro";
-  src: url(fonts/Anonymous_Pro/AnonymousPro-Regular.ttf);
-}
-
-@font-face {
-  font-family: "AnonymousPro";
-  src: url(fonts/Anonymous_Pro/AnonymousPro-Bold.ttf);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "AnonymousPro";
-  src: url(fonts/Anonymous_Pro/AnonymousPro-Italic.ttf);
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "AnonymousPro";
-  src: url(fonts/Anonymous_Pro/AnonymousPro-BoldItalic.ttf);
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
   font-family: "Nunito";
   src: url(fonts/Nunito/Nunito-Regular.ttf);
 }

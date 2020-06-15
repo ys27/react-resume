@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(5, auto);
   font-size: 1.1rem;
+  padding-bottom: 0.5rem;
 
   .subinfo-text {
     align-self: center;
@@ -11,5 +12,6 @@
     display: grid;
     gap: 0.5rem;
     grid-template-columns: 20px auto;
+    align-items: center;
   }
 }

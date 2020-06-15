@@ -1,11 +1,8 @@
 @import "src/App";
 
 .earlier-experience {
-  display: contents;
-
-  .section-title {
-    grid-column: span 1;
-  }
+  @include side-title-border;
+  @include grid;
 
   .experiences {
     @include experience-title;

@@ -1,10 +1,11 @@
 @import "src/App";
 
 .education {
-  display: contents;
+  @include side-title-border;
+  @include grid;
 
-  .section-title {
-    grid-column: span 1;
+  .award {
+    font-size: 1.1rem;
   }
 
   .school {

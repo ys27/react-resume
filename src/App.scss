@@ -4,6 +4,7 @@
     width: 850px;
     height: 1100px;
     border: 1px solid grey;
+    font-size: 0.9rem;
 
     display: flex;
     flex-direction: column;
@@ -13,24 +14,21 @@
       padding-left: 1rem;
     }
 
-    .structured,
-    .grid {
-      > div:not(.line) {
-        margin-bottom: 0.5rem;
-      }
-    }
-
-    .grid {
-      display: grid;
-      gap: 0.75rem;
-      grid-template-columns: fit-content(10rem) auto;
-    }
-
-    .line {
-      border-top: 1px solid grey;
-      grid-column: span 2;
+    .structured > div {
+      margin-bottom: 0.5rem;
     }
   }
+}
+
+@mixin grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: 11.5rem auto;
+}
+
+@mixin side-title-border {
+  padding-top: 0.5rem;
+  border-top: 1px solid grey;
 }
 
 @mixin experience-title {
