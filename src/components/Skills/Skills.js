@@ -10,15 +10,15 @@ const Skills = () => (
     <div className="sections">
       <SkillSection
         title="Languages"
-        items={["C++", "C#", "Dart", "Java", "JavaScript", "Python"]}
+        items={["C++", "C#", "Dart", "Java", "JavaScript [+TS]", "Python"]}
       />
       <SkillSection
         title="Frameworks/Libs"
-        items={["Angular", "Jest", "Node", "React", "Sass"]}
+        items={["Jest", "Node", "React", "Redux", "Sagas", "Sass"]}
       />
       <SkillSection
         title="DevOps"
-        items={["Docker", "Jenkins", "Kubernetes", "Openshift"]}
+        items={["Artifactory", "Docker", "Jenkins", "Kubernetes", "Openshift"]}
       />
       <SkillSection
         title="Misc."
@@ -27,7 +27,7 @@ const Skills = () => (
           "Chrome Extensions",
           "Ethereum Blockchain",
           "Flutter",
-          "NPM Packages",
+          "Custom Node Packages",
           "React Native",
           "Unity + VR",
         ]}
