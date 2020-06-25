@@ -47,15 +47,12 @@ const ExperienceDesc = ({ descriptions }) => (
     {descriptions.map((desc, index) => (
       <React.Fragment key={index}>
         <li>{desc.mainLine}</li>
-        {desc.subLines && (
-          <ul>
-            {desc.subLines.map((line, index) => (
-              <li key={index} className="subline">
-                {line}
-              </li>
-            ))}
-          </ul>
-        )}
+        {desc.subLines &&
+          desc.subLines.map((line, index) => (
+            <div key={index} className="subline">
+              {line}
+            </div>
+          ))}
       </React.Fragment>
     ))}
   </ul>
