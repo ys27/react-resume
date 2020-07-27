@@ -27,7 +27,8 @@ const Skills = () => (
           "Chrome Extensions",
           "Ethereum Blockchain",
           "Flutter",
-          "Custom Node Packages",
+          "Google Search",
+          "Node Packages",
           "React Native",
           "Unity + VR",
         ]}
