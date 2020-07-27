@@ -9,8 +9,8 @@ const RecentProjects = () => (
   <div className="recent-projects">
     <SectionTitle title="Recent Projects" />
     <div className="projects">
-      {Data.map((project) => (
-        <Project project={project} />
+      {Data.map((project, index) => (
+        <Project key={index} project={project} />
       ))}
     </div>
   </div>

@@ -10,8 +10,8 @@ const EarlierExperience = () => (
   <div className="earlier-experience">
     <SectionTitle title="Earlier Experience" />
     <div className="experiences">
-      {Data.map((experience) => (
-        <EarlierExperienceCard title={experience.title} />
+      {Data.map((experience, index) => (
+        <EarlierExperienceCard key={index} title={experience.title} />
       ))}
     </div>
   </div>

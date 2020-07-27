@@ -25,7 +25,7 @@ const Program = ({ award, school }) => (
     <div className="award">{award}</div>
     <div className="school">
       <img src={UWLogo} alt="UW Logo" />
-      <div class="school-name">{school}</div>
+      <div className="school-name">{school}</div>
     </div>
   </div>
 );

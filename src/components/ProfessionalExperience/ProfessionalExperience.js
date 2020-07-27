@@ -9,8 +9,8 @@ const ProfessionalExperience = () => (
   <div className="professional-experience">
     <SectionTitle title="Professional Experience" />
     <div className="experiences">
-      {Data.map((experience) => (
-        <ExperienceSection experience={experience} />
+      {Data.map((experience, index) => (
+        <ExperienceSection key={index} experience={experience} />
       ))}
     </div>
   </div>
@@ -44,12 +44,12 @@ const ExperienceTitle = ({ title }) => {
 
 const ExperienceDesc = ({ descriptions }) => (
   <ul className="experience-desc">
-    {descriptions.map((desc, index) => (
-      <React.Fragment key={index}>
+    {descriptions.map((desc, descIndex) => (
+      <React.Fragment key={descIndex}>
         <li>{desc.mainLine}</li>
         {desc.subLines &&
-          desc.subLines.map((line, index) => (
-            <div key={index} className="subline">
+          desc.subLines.map((line, lineIndex) => (
+            <div key={lineIndex} className="subline">
               {line}
             </div>
           ))}
