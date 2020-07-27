@@ -46,11 +46,15 @@ const ExperienceDesc = ({ descriptions }) => (
   <ul className="experience-desc">
     {descriptions.map((desc, descIndex) => (
       <React.Fragment key={descIndex}>
-        <li>{desc.mainLine}</li>
+        <li className="row">
+          <div className="desc-skills">{desc.mainLine[0]}</div>
+          {desc.mainLine[1]}
+        </li>
         {desc.subLines &&
           desc.subLines.map((line, lineIndex) => (
-            <div key={lineIndex} className="subline">
-              {line}
+            <div key={lineIndex} className="row subline">
+              <div className="desc-skills">{line[0]}</div>
+              {line[1]}
             </div>
           ))}
       </React.Fragment>

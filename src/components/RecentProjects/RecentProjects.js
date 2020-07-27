@@ -21,6 +21,9 @@ export default RecentProjects;
 const Project = ({ project }) => (
   <div>
     <div className="title">{project.title}</div>
-    <div className="description">{project.desc}</div>
+    <div className="row description">
+      <div className="desc-skills">{project.desc[0]}</div>
+      {project.desc[1]}
+    </div>
   </div>
 );

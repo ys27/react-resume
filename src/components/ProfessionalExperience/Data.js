@@ -7,20 +7,39 @@ const Data = [
     },
     descriptions: [
       {
-        mainLine:
+        mainLine: [
+          "",
           "Open Banking: Studied the OB specs for research and architectural design;",
+        ],
         subLines: [
-          "[JS, Java, Couch] Design/Built micro-service REST APIs, auth and certificate management;",
-          "[React/Redux, Couch] Produced conceptual UI with circumvention for existing limitations;",
-          "Bash scripts to ease development, with command aliases, batch execution, and log windows;",
+          [
+            "[JS, Java, Couch]",
+            "Design/Built micro-service REST APIs, auth and certificate management;",
+          ],
+          [
+            "[React/Redux, Couch]",
+            "Produced conceptual UI with circumvention for existing limitations;",
+          ],
+          [
+            "",
+            "Bash scripts to ease development, with command aliases, batch execution, and log windows;",
+          ],
         ],
       },
       {
-        mainLine:
+        mainLine: [
+          "",
           "Financial Crimes Insights: As Scrum Master, organized and managed sprint events and outcomes;",
+        ],
         subLines: [
-          "[MERN/Redux, Custom Packages] Entity Enrichment: Prod. REST API & Demo UI;",
-          "[React/Redux, MongoDB, Flask, Carbon] Transaction List Screening: Prod. UI & REST API;",
+          [
+            "[MERN/Redux, Custom Packages]",
+            "Entity Enrichment: Prod. REST API & Demo UI;",
+          ],
+          [
+            "[React/Redux, MongoDB, Flask, Carbon]",
+            "Transaction List Screening: Prod. UI & REST API;",
+          ],
         ],
       },
     ],
@@ -33,16 +52,22 @@ const Data = [
     },
     descriptions: [
       {
-        mainLine:
-          "[Vue, Node, MongoDB, Solidity] Smart contracts deployed to Ethereum, with UI;",
+        mainLine: [
+          "[Vue, Node, MongoDB, Solidity]",
+          "Smart contracts deployed to Ethereum, with UI;",
+        ],
       },
       {
-        mainLine:
-          "[Unity 3D, C#] VR Application to view Brightspace content, with OAuth 2.0;",
+        mainLine: [
+          "[Unity 3D, C#]",
+          "VR Application to view Brightspace content, with OAuth 2.0;",
+        ],
       },
       {
-        mainLine:
+        mainLine: [
+          "",
           "Brightspace Chrome Extension, to ease user access to recent and relevant links;",
+        ],
       },
     ],
   },
@@ -54,20 +79,28 @@ const Data = [
     },
     descriptions: [
       {
-        mainLine:
-          "[Python, Solidity, Node/Express] Transactions simulator conn. to Ethereum blockchain & UI;",
+        mainLine: [
+          "[Python, Solidity, Node/Express]",
+          "Transactions simulator conn. to Ethereum blockchain & UI;",
+        ],
       },
       {
-        mainLine:
-          "[Ruby on Rails] Security Week Games Web App with levels, users, and score management;",
+        mainLine: [
+          "[Ruby on Rails]",
+          "Security Week Games Web App with levels, users, and score management;",
+        ],
       },
       {
-        mainLine:
-          "[Meteor, React, MongoDB] First full-stack app from scratch: Dynamic CMS and authentication;",
+        mainLine: [
+          "[Meteor, React, MongoDB]",
+          "First full-stack app from scratch: Dynamic CMS and authentication;",
+        ],
       },
       {
-        mainLine:
-          "[Solidity, Node/Express, JS] Ethereum Smart contracts: Real-time info between contracts & UI;",
+        mainLine: [
+          "[Solidity, Node/Express, JS]",
+          "Ethereum Smart contracts: Real-time info between contracts & UI;",
+        ],
       },
     ],
   },

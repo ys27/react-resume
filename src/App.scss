@@ -18,6 +18,16 @@
     .structured > div {
       margin-bottom: 0.5rem;
     }
+
+    .row {
+      display: flex;
+    }
+
+    .desc-skills {
+      // text-decoration: underline;
+      font-weight: bold;
+      margin-right: 0.25rem;
+    }
   }
 }
 
