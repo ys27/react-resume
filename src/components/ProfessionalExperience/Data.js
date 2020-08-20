@@ -7,10 +7,7 @@ const Data = [
     },
     descriptions: [
       {
-        mainLine: [
-          "",
-          "Open Banking: Studied the OB specs for research and architectural design;",
-        ],
+        mainLine: "Open Banking: Studied the OB specs for research and architectural design;",
         subLines: [
           [
             "[JS, Java, Couch]",
@@ -21,16 +18,13 @@ const Data = [
             "Produced conceptual UI with circumvention for existing limitations;",
           ],
           [
-            "",
-            "Bash scripts to ease development, with command aliases, batch execution, and log windows;",
+            "[Bash, AppleScript]",
+            "Scripts to ease development with: aliases, batch execution, and log windows;",
           ],
         ],
       },
       {
-        mainLine: [
-          "",
-          "Financial Crimes Insights: As Scrum Master, organized and managed sprint events and outcomes;",
-        ],
+        mainLine: "Financial Crimes Insights: As Scrum Master, organized and managed sprint events and outcomes;",
         subLines: [
           [
             "[MERN/Redux, Custom Packages]",
@@ -52,22 +46,28 @@ const Data = [
     },
     descriptions: [
       {
-        mainLine: [
-          "[Vue, Node, MongoDB, Solidity]",
-          "Smart contracts deployed to Ethereum, with UI;",
-        ],
+        subLines: [
+          [
+            "[Vue, Node, MongoDB, Solidity]",
+            "Smart contracts deployed to Ethereum, with UI;"
+          ],
+        ]
       },
       {
-        mainLine: [
-          "[Unity 3D, C#]",
-          "VR Application to view Brightspace content, with OAuth 2.0;",
-        ],
+        subLines: [
+            [
+              "[Unity 3D, C#]",
+              "VR Application to view Brightspace content, with OAuth 2.0;",
+            ]
+          ],
       },
       {
-        mainLine: [
-          "",
-          "Brightspace Chrome Extension, to ease user access to recent and relevant links;",
-        ],
+        subLines: [
+            [
+              "[Chromium Extension]",
+              "Brightspace Extension, to ease user access to recent and relevant links;",
+            ]
+          ],
       },
     ],
   },
@@ -79,28 +79,36 @@ const Data = [
     },
     descriptions: [
       {
-        mainLine: [
-          "[Python, Solidity, Node/Express]",
-          "Transactions simulator conn. to Ethereum blockchain & UI;",
-        ],
+        subLines: [
+            [
+              "[Python, Solidity, Node/Express]",
+              "Transactions simulator conn. to Ethereum blockchain & UI;",
+            ]
+          ],
       },
       {
-        mainLine: [
-          "[Ruby on Rails]",
-          "Security Week Games Web App with levels, users, and score management;",
-        ],
+        subLines: [
+            [
+              "[Ruby on Rails]",
+              "Security Week Games Web App with levels, users, and score management;",
+            ]
+          ],
       },
       {
-        mainLine: [
-          "[Meteor, React, MongoDB]",
-          "First full-stack app from scratch: Dynamic CMS and authentication;",
-        ],
+        subLines: [
+            [
+              "[Meteor, React, MongoDB]",
+              "First full-stack app from scratch: Dynamic CMS and authentication;",
+            ]
+          ],
       },
       {
-        mainLine: [
-          "[Solidity, Node/Express, JS]",
-          "Ethereum Smart contracts: Real-time info between contracts & UI;",
-        ],
+        subLines: [
+            [
+              "[Solidity, Node/Express, JS]",
+              "Ethereum Smart contracts: Real-time info between contracts & UI;",
+            ]
+          ],
       },
     ],
   },
