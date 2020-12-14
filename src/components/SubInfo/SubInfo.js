@@ -11,7 +11,7 @@ import "./SubInfo.scss";
 
 const SubInfo = () => (
   <div className="subinfo">
-    <div className="subinfo-text">Full-Stack Developer</div>
+    <div className="subinfo-text">Full-stack Developer</div>
     <div className="icon-subinfo">
       <AiFillMail />
       <div className="subinfo-text">anandrew1995@gmail.com</div>
