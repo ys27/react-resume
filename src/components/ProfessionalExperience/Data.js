@@ -7,7 +7,7 @@ const Data = [
     },
     descriptions: [
       {
-        mainLine: "Safer Payments: Full-stack Development;",
+        mainLine: "Safer Payments: Full-stack Developer;",
         subLines: [
           [
             "[React/Redux/Sagas, TS, Sass]",
