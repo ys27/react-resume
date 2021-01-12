@@ -5,7 +5,7 @@ import "./Keywords.scss";
 const Keywords = () => (
   <div className="keywords">
     <div>
-      Current interests: CSS Grid, React Hooks, Flutter, vim, zsh plugins.
+      Current interests: CSS Grid, Flutter, zsh plugins.
     </div>
   </div>
 );

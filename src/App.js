@@ -34,6 +34,6 @@ const Resume = () => (
       <RecentProjects />
       <Education />
     </div>
-    <Keywords />
+    {/* <Keywords /> */}
   </div>
 );
