@@ -2,7 +2,7 @@ const Data = [
   {
     title: {
       company: "IBM",
-      durations: ["Oct 2018 - Present"],
+      durations: ["Oct 2018 - Feb 2021"],
       role: "Software Developer",
     },
     descriptions: [
@@ -35,7 +35,7 @@ const Data = [
         subLines: [
           [
             "[JS, Java, Couch]",
-            "Design/Built micro-service REST APIs, auth and certificate management;",
+            "Designed/Built micro-service REST APIs, auth and cert management;",
           ],
           [
             "[React/Redux, Couch]",
@@ -105,7 +105,7 @@ const Data = [
         subLines: [
           [
             "[Meteor, React, MongoDB]",
-            "First full-stack app from scratch: Dynamic CMS and authentication;",
+            "Full-stack app from scratch: Dynamic CMS and authentication;",
           ],
         ],
       },
