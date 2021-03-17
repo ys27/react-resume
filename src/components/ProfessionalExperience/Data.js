@@ -3,7 +3,7 @@ const Data = [
     title: {
       company: "IBM",
       durations: ["Oct 2018 - Feb 2021"],
-      role: "Software Developer",
+      role: "Full-stack Developer",
     },
     descriptions: [
       {
