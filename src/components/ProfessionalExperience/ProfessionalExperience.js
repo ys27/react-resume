@@ -6,7 +6,7 @@ import Data from "./Data";
 import "./ProfessionalExperience.scss";
 
 const ProfessionalExperience = () => (
-  <div className="professional-experience">
+  <div className="professional-experiences">
     <SectionTitle title="Professional Experience" />
     <div className="experiences">
       {Data.map((experience, index) => (
@@ -26,7 +26,7 @@ const ExperienceSection = ({ experience }) => (
 );
 
 const ExperienceTitle = ({ title }) => {
-  const { company, durations, role } = title;
+  const { company, durations, roles } = title;
   return (
     <div className="experience-title">
       <div className="company">{company}</div>
@@ -37,7 +37,13 @@ const ExperienceTitle = ({ title }) => {
           </div>
         ))}
       </div>
-      <div className="role">{role}</div>
+      <div className="roles">
+        {roles.map((role, index) => (
+          <div key={index} className="role">
+            {role}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
@@ -46,17 +52,19 @@ const ExperienceDesc = ({ descriptions }) => (
   <ul className="experience-desc">
     {descriptions.map((desc, descIndex) => (
       <React.Fragment key={descIndex}>
-        {desc.mainLine && 
-          <li className="row">
-            <div className="mainLine">{desc.mainLine}</div>
-          </li>}
-        {desc.subLines &&
-          desc.subLines.map((line, lineIndex) => (
+        <li className="row">
+          <div className="main-line-project">{`${desc?.mainLine?.project}`}</div>
+          <div className="main-line-stack">{`[${desc?.mainLine?.stack?.join(
+            ", "
+          )}]`}</div>
+        </li>
+        <ul>
+          {desc.subLines?.map((line, lineIndex) => (
             <div key={lineIndex} className="row subline">
-              <div className="desc-skills">{line[0]}</div>
-              {line[1]}
+              <li>{line}</li>
             </div>
           ))}
+        </ul>
       </React.Fragment>
     ))}
   </ul>

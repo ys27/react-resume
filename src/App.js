@@ -7,7 +7,7 @@ import ProfessionalExperience from "./components/ProfessionalExperience/Professi
 import EarlierExperience from "./components/EarlierExperience/EarlierExperience";
 import RecentProjects from "./components/RecentProjects/RecentProjects";
 import Education from "./components/Education/Education";
-import Keywords from "./components/Keywords/Keywords";
+// import Keywords from "./components/Keywords/Keywords";
 
 import "./App.scss";
 

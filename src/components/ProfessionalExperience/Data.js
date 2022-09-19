@@ -1,124 +1,142 @@
 const Data = [
   {
     title: {
+      company: "Fiserv",
+      durations: ["Jun 2021 - Present"],
+      roles: ["Full-stack Developer", "Team Lead"],
+    },
+    descriptions: [
+      {
+        mainLine: {
+          project: "Developer Studio",
+          stack: ["MERN", "GraphQL", "Sass"],
+        },
+        subLines: [
+          "Ownership of features and end-to-end architecture to implementation.",
+          "Resolved pen tests and security vulnerabilities.",
+          "Managed external tenants with guidance, set-up, and issues.",
+          "Managed internal team with sprint management.",
+        ],
+      },
+    ],
+  },
+  {
+    title: {
       company: "IBM",
       durations: ["Oct 2018 - Feb 2021"],
-      role: "Full-stack Developer",
+      roles: ["Full-stack Developer", "Scrum Master"],
     },
     descriptions: [
       {
-        mainLine: "Safer Payments: Full-stack Developer;",
+        mainLine: {
+          project: "Safer Payments",
+          stack: ["React/Redux/Sagas", "TS", "Sass", "C++", "Python"],
+        },
+        subLines: ["Prod level full-stack feature development/maintenance."],
+      },
+      {
+        mainLine: {
+          project: "Entity Enrichment",
+          stack: ["MERN/Redux", "Custom Packages"],
+        },
         subLines: [
-          [
-            "[React/Redux/Sagas, TS, Sass]",
-            "Front-end feature development/maintenance for client-facing UI;",
-          ],
-          ["[C++, Python]", "Custom Back-end API with Python testing;"],
+          "Designed and built various entity enrichment methods for prod level APIs & demo UI.",
+          "Owned and managed a stand-alone entity enrichment micro-service.",
+          "Wrote a published paper for novel entity enrichment ideas.",
         ],
       },
       {
-        mainLine:
-          "Financial Crimes Insights: Scrum Master, Full-stack Developer;",
-        subLines: [
-          [
-            "[MERN/Redux, Custom Packages]",
-            "Entity Enrichment: Prod. REST API & Demo UI;",
-          ],
-          [
-            "[React/Redux/Sagas, MongoDB, Flask]",
-            "Transaction List Screening: Prod. UI & REST API;",
-          ],
-        ],
+        mainLine: {
+          project: "Transaction List Screening",
+          stack: ["React/Redux/Sagas", "Mongo", "Flask"],
+        },
+        subLines: ["Prod level full-stack feature development/maintenance."],
       },
       {
-        mainLine: "Open Banking: Full-stack Developer;",
+        mainLine: {
+          project: "Open Banking",
+          stack: ["React/Redux", "Java", "CouchDB"],
+        },
         subLines: [
-          [
-            "[JS, Java, Couch]",
-            "Designed/Built micro-service REST APIs, auth and cert management;",
-          ],
-          [
-            "[React/Redux, Couch]",
-            "Produced conceptual UI with circumvention for existing limitations;",
-          ],
+          "Designed and built micro-services with authenticated APIs + UI to visualize concepts.",
         ],
       },
     ],
   },
-  {
-    title: {
-      company: "D2L",
-      durations: ["Sept 2017 - Dec 2017"],
-      role: "Software Developer Co-op",
-    },
-    descriptions: [
-      {
-        subLines: [
-          [
-            "[Vue, Node, MongoDB, Solidity]",
-            "Smart contracts deployed to Ethereum, with UI;",
-          ],
-        ],
-      },
-      {
-        subLines: [
-          [
-            "[Unity 3D, C#]",
-            "VR Application to view Brightspace content, with OAuth 2.0;",
-          ],
-        ],
-      },
-      {
-        subLines: [
-          [
-            "[Chromium Extension]",
-            "Brightspace Extension, to ease user access to recent and relevant links;",
-          ],
-        ],
-      },
-    ],
-  },
-  {
-    title: {
-      company: "IFDS",
-      durations: ["Sept 2016 - Dec 2016", "Jan 2016 - Apr 2016"],
-      role: "R&D Developer Co-op",
-    },
-    descriptions: [
-      {
-        subLines: [
-          [
-            "[Python, Solidity, Node/Express]",
-            "Transactions simulator conn. to Ethereum blockchain & UI;",
-          ],
-        ],
-      },
-      {
-        subLines: [
-          [
-            "[Ruby on Rails]",
-            "Security Week Games Web App with levels, users, and score management;",
-          ],
-        ],
-      },
-      {
-        subLines: [
-          [
-            "[Meteor, React, MongoDB]",
-            "Full-stack app from scratch: Dynamic CMS and authentication;",
-          ],
-        ],
-      },
-      {
-        subLines: [
-          [
-            "[Solidity, Node/Express, JS]",
-            "Ethereum Smart contracts: Real-time info between contracts & UI;",
-          ],
-        ],
-      },
-    ],
-  },
+  // {
+  //   title: {
+  //     company: "D2L",
+  //     durations: ["Sept 2017 - Dec 2017"],
+  //     role: "Software Developer Co-op",
+  //   },
+  //   descriptions: [
+  //     {
+  //       subLines: [
+  //         [
+  //           "[Vue, Node, Mongo, Solidity]",
+  //           "Smart contracts deployed to Ethereum, with UI",
+  //         ],
+  //       ],
+  //     },
+  //     {
+  //       subLines: [
+  //         [
+  //           "[Unity 3D, C#]",
+  //           "VR Application to view Brightspace content, with OAuth 2.0",
+  //         ],
+  //       ],
+  //     },
+  //     {
+  //       subLines: [
+  //         [
+  //           "[Chromium Extension]",
+  //           "Brightspace Extension, to ease user access to recent and relevant links",
+  //         ],
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: {
+  //     company: "IFDS",
+  //     durations: ["Sept 2016 - Dec 2016", "Jan 2016 - Apr 2016"],
+  //     role: "R&D Developer Co-op",
+  //   },
+  //   descriptions: [
+  //     {
+  //       subLines: [
+  //         [
+  //           "[Python, Solidity, Node/Express]",
+  //           "Transactions simulator conn. to Ethereum blockchain & UI",
+  //         ],
+  //       ],
+  //     },
+  //     {
+  //       subLines: [
+  //         [
+  //           "[Ruby on Rails]",
+  //           "Security Week Games Web App with levels, users, and score management",
+  //         ],
+  //       ],
+  //     },
+  //     {
+  //       subLines: [
+  //         [
+  //           "[Meteor, React, Mongo]",
+  //           "Full-stack app from scratch: Dynamic CMS and authentication",
+  //         ],
+  //       ],
+  //     },
+  //     {
+  //       subLines: [
+  //         [
+  //           "[Solidity, Node/Express, JS]",
+  //           "Ethereum Smart contracts: Real-time info between contracts & UI",
+  //         ],
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 
 export default Data;

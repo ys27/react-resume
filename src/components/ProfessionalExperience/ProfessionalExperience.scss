@@ -1,6 +1,6 @@
 @import "src/App";
 
-.professional-experience {
+.professional-experiences {
   .section-title {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid grey;
@@ -8,7 +8,7 @@
 
   .experiences {
     @include grid;
-    gap: 0.5rem;
+    gap: 0rem 0.75rem;
 
     .experience-section {
       display: contents;
@@ -23,10 +23,17 @@
       }
 
       .experience-desc {
+        @include section-left-border;
+        margin-top: 0.5rem;
         margin-bottom: 0;
 
-        .mainLine {
+        .main-line-project {
           text-decoration: underline;
+        }
+
+        .main-line-stack {
+          margin-left: 0.25rem;
+          font-weight: bold;
         }
 
         .subline {

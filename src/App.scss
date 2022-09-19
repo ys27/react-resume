@@ -53,8 +53,13 @@
     font-size: 0.7rem;
   }
 
-  .role {
+  .roles {
     margin-top: 0.25rem;
     font-size: 0.75rem;
   }
+}
+
+@mixin section-left-border {
+  border-left: 1px solid grey;
+  border-radius: 2px;
 }

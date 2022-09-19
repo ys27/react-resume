@@ -19,7 +19,7 @@ const RecentProjects = () => (
 export default RecentProjects;
 
 const Project = ({ project }) => (
-  <div>
+  <div className="project">
     <div className="title">{project.title}</div>
     <div className="row description">
       <div className="desc-skills">{project.desc[0]}</div>
