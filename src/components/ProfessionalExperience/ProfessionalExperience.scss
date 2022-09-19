@@ -3,7 +3,7 @@
 .professional-experiences {
   .section-title {
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid grey;
+    // border-bottom: 1px solid grey;
   }
 
   .experiences {
@@ -26,6 +26,7 @@
         @include section-left-border;
         margin-top: 0.5rem;
         margin-bottom: 0;
+        padding-left: 1rem;
 
         .main-line-project {
           text-decoration: underline;

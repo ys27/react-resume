@@ -49,23 +49,23 @@ const ExperienceTitle = ({ title }) => {
 };
 
 const ExperienceDesc = ({ descriptions }) => (
-  <ul className="experience-desc">
+  <div className="experience-desc">
     {descriptions.map((desc, descIndex) => (
       <React.Fragment key={descIndex}>
-        <li className="row">
+        <div className="d-flex">
           <div className="main-line-project">{`${desc?.mainLine?.project}`}</div>
           <div className="main-line-stack">{`[${desc?.mainLine?.stack?.join(
             ", "
           )}]`}</div>
-        </li>
+        </div>
         <ul>
           {desc.subLines?.map((line, lineIndex) => (
-            <div key={lineIndex} className="row subline">
-              <li>{line}</li>
-            </div>
+            <li key={lineIndex} className="subline">
+              {line}
+            </li>
           ))}
         </ul>
       </React.Fragment>
     ))}
-  </ul>
+  </div>
 );

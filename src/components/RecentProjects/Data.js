@@ -1,23 +1,23 @@
 const Data = [
   {
     title: "Fund Tracker",
+    stack: ["Flutter", "Dart"],
     desc: [
-      "[Flutter, Dart]",
-      "Keep track of transactions. Statistics, recurring transactions, cloud sync, etc.;",
+      "Keep track of transactions. Statistics, planned transactions, cloud sync, etc.",
     ],
   },
   {
     title: "MelonList",
+    stack: ["MERN"],
     desc: [
-      "[MERN]",
-      "View various music board charts with YouTube links and export to playlist;",
+      "View various music board charts with YouTube links and export to playlist.",
     ],
   },
   {
     title: "RedditUserTransfer",
+    stack: ["MERN"],
     desc: [
-      "[MERN]",
-      "Transfer saved posts & comments, subscriptions, and preferences to other accounts;",
+      "Transfer saved posts & comments, subscriptions, and preferences to other accounts.",
     ],
   },
 ];

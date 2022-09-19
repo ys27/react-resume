@@ -20,10 +20,16 @@ export default RecentProjects;
 
 const Project = ({ project }) => (
   <div className="project">
-    <div className="title">{project.title}</div>
-    <div className="row description">
-      <div className="desc-skills">{project.desc[0]}</div>
-      {project.desc[1]}
+    <div className="title">
+      {project?.title}
+      <div className="desc-skills">{`[${project?.stack?.join(", ")}]`}</div>
     </div>
+    <ul>
+      {project?.desc.map((desc) => (
+        <li key={desc} className="description">
+          {desc}
+        </li>
+      ))}
+    </ul>
   </div>
 );

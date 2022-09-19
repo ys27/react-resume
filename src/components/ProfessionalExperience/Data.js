@@ -2,7 +2,7 @@ const Data = [
   {
     title: {
       company: "Fiserv",
-      durations: ["Jun 2021 - Present"],
+      durations: ["June 2021 - Present"],
       roles: ["Full-stack Developer", "Team Lead"],
     },
     descriptions: [

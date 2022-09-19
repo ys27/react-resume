@@ -12,22 +12,19 @@
     justify-content: space-between;
 
     ul {
+      margin: 0;
       padding-left: 1rem;
+      list-style-type: square;
     }
 
     .structured > div {
       margin-bottom: 0.5rem;
     }
-
-    .row {
-      display: flex;
-    }
-
-    .desc-skills {
-      font-weight: bold;
-      margin-right: 0.25rem;
-    }
   }
+}
+
+.d-flex {
+  display: flex;
 }
 
 @mixin grid {
@@ -38,7 +35,7 @@
 
 @mixin side-title-border {
   padding-top: 0.5rem;
-  border-top: 1px solid grey;
+  border-top: 1px dotted grey;
 }
 
 @mixin experience-title {
