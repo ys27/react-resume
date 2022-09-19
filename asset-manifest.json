@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.94b5fb37.chunk.css",
-    "main.js": "/react-resume/static/js/main.0562d9d2.chunk.js",
-    "main.js.map": "/react-resume/static/js/main.0562d9d2.chunk.js.map",
-    "runtime-main.js": "/react-resume/static/js/runtime-main.a2f95e7a.js",
-    "runtime-main.js.map": "/react-resume/static/js/runtime-main.a2f95e7a.js.map",
-    "static/js/2.eeccf114.chunk.js": "/react-resume/static/js/2.eeccf114.chunk.js",
-    "static/js/2.eeccf114.chunk.js.map": "/react-resume/static/js/2.eeccf114.chunk.js.map",
+    "main.css": "/react-resume/static/css/main.f978fc5b.css",
+    "main.js": "/react-resume/static/js/main.ea629e83.js",
+    "static/media/uw-logo.png": "/react-resume/static/media/uw-logo.4c8baa431aa9388cdfdf.png",
+    "static/media/Nunito-Italic.ttf": "/react-resume/static/media/Nunito-Italic.c141daa829fc6ff990c6.ttf",
+    "static/media/Nunito-Bold.ttf": "/react-resume/static/media/Nunito-Bold.5b67d635abb53cc261c5.ttf",
+    "static/media/Nunito-BoldItalic.ttf": "/react-resume/static/media/Nunito-BoldItalic.360622ca23d1b494aa13.ttf",
+    "static/media/Nunito-Regular.ttf": "/react-resume/static/media/Nunito-Regular.09b2f37e93bedfaa2976.ttf",
+    "static/media/OpenSans-Bold.ttf": "/react-resume/static/media/OpenSans-Bold.dbb97fd982ce1b96b6de.ttf",
+    "static/media/OpenSans-Regular.ttf": "/react-resume/static/media/OpenSans-Regular.1b0809d519837cb7aad3.ttf",
+    "static/media/OpenSans-BoldItalic.ttf": "/react-resume/static/media/OpenSans-BoldItalic.9572470e485d8e0fd2ad.ttf",
+    "static/media/OpenSans-Italic.ttf": "/react-resume/static/media/OpenSans-Italic.20653d2fac6285bf4dea.ttf",
     "index.html": "/react-resume/index.html",
-    "precache-manifest.788cb1c7fa0681a1ada3a3f9d59d0956.js": "/react-resume/precache-manifest.788cb1c7fa0681a1ada3a3f9d59d0956.js",
-    "service-worker.js": "/react-resume/service-worker.js",
-    "static/css/main.94b5fb37.chunk.css.map": "/react-resume/static/css/main.94b5fb37.chunk.css.map",
-    "static/js/2.eeccf114.chunk.js.LICENSE.txt": "/react-resume/static/js/2.eeccf114.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/react-resume/static/media/OpenSans-Regular.3ed9575d.ttf",
-    "static/media/uw-logo.png": "/react-resume/static/media/uw-logo.69c53a32.png"
+    "main.f978fc5b.css.map": "/react-resume/static/css/main.f978fc5b.css.map",
+    "main.ea629e83.js.map": "/react-resume/static/js/main.ea629e83.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2f95e7a.js",
-    "static/js/2.eeccf114.chunk.js",
-    "static/css/main.94b5fb37.chunk.css",
-    "static/js/main.0562d9d2.chunk.js"
+    "static/css/main.f978fc5b.css",
+    "static/js/main.ea629e83.js"
   ]
 }
