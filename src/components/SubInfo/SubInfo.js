@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import {
   AiFillMail,
@@ -21,23 +21,28 @@ const infoDetails = [
 ];
 
 const SubInfo = () => {
+  const [showCopied, setShowCopied] = useState(-1);
+
   return (
     <div className="subinfo">
       <div className="subinfo-text">Full-stack Developer</div>
-      {infoDetails.map((info) => (
+      {infoDetails.map((info, index) => (
         <div
           key={info.text}
-          className="icon-subinfo cursor-pointer"
+          className="icon-subinfo actionable"
           onClick={() => {
             navigator.clipboard.writeText(info.text);
+            setShowCopied(index);
+            setTimeout(() => setShowCopied(false), 500);
           }}
         >
           {info.icon}
           <div className="subinfo-text">{info.text}</div>
+          {showCopied === index && <div className="copied-alert">Copied!</div>}
         </div>
       ))}
       <a
-        className="icon-subinfo cursor-pointer"
+        className="icon-subinfo actionable"
         rel="noopener noreferrer"
         target="_blank"
         href="https://github.com/ys27"
