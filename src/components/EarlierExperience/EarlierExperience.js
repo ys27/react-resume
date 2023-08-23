@@ -8,7 +8,7 @@ import "../ProfessionalExperience/ProfessionalExperience.scss";
 
 const EarlierExperience = () => (
   <div className="earlier-experience">
-    <SectionTitle title="Earlier Experience" />
+    <SectionTitle title="Earlier Experience (Co-op)" />
     <div className="experiences">
       {Data.map((experience, index) => (
         <EarlierExperienceCard key={index} title={experience.title} />

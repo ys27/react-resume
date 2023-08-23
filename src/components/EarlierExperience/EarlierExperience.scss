@@ -7,11 +7,17 @@
   .experiences {
     @include experience-title;
     display: grid;
-    gap: 0.5rem 1rem;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem 0.25rem;
+      grid-template-columns: repeat(5, 1fr);
 
     .earlier-experience-card {
       @include section-left-border;
+      .company {
+          height: 54px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
     }
   }
 }

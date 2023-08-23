@@ -16,7 +16,7 @@ const Data = [
           'Ownership of features - from architecture to implementation.',
           'Resolved pen tests and security vulnerabilities.',
           'Collaboration with external teams to co-develop features.',
-          'Managed internal squad & sprint management.',
+          'Guided internal squad & sprint management.',
         ],
       },
     ],
