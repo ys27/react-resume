@@ -13,7 +13,7 @@ const Data = [
         },
         subLines: [
           'Built production-level financial features to attract and contract with external companies.',
-          'Ownership of features - from architecture to implementation.',
+          'Ownership of features - from writing the architectural document to implementation.',
           'Resolved pen tests and security vulnerabilities.',
           'Collaboration with external teams to co-develop features.',
           'Guided internal squad & sprint management.',
