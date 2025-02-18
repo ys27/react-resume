@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.92ac1d94.css",
-    "main.js": "/react-resume/static/js/main.6fbf540a.js",
+    "main.css": "/react-resume/static/css/main.afe8ade8.css",
+    "main.js": "/react-resume/static/js/main.d698ecd8.js",
     "static/media/uw-logo.png": "/react-resume/static/media/uw-logo.4c8baa431aa9388cdfdf.png",
     "static/media/Nunito-Italic.ttf": "/react-resume/static/media/Nunito-Italic.c141daa829fc6ff990c6.ttf",
     "static/media/Nunito-Bold.ttf": "/react-resume/static/media/Nunito-Bold.5b67d635abb53cc261c5.ttf",
@@ -12,11 +12,11 @@
     "static/media/OpenSans-BoldItalic.ttf": "/react-resume/static/media/OpenSans-BoldItalic.9572470e485d8e0fd2ad.ttf",
     "static/media/OpenSans-Italic.ttf": "/react-resume/static/media/OpenSans-Italic.20653d2fac6285bf4dea.ttf",
     "index.html": "/react-resume/index.html",
-    "main.92ac1d94.css.map": "/react-resume/static/css/main.92ac1d94.css.map",
-    "main.6fbf540a.js.map": "/react-resume/static/js/main.6fbf540a.js.map"
+    "main.afe8ade8.css.map": "/react-resume/static/css/main.afe8ade8.css.map",
+    "main.d698ecd8.js.map": "/react-resume/static/js/main.d698ecd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.92ac1d94.css",
-    "static/js/main.6fbf540a.js"
+    "static/css/main.afe8ade8.css",
+    "static/js/main.d698ecd8.js"
   ]
 }
