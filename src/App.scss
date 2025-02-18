@@ -20,11 +20,15 @@
     .structured > div {
       margin-bottom: 0.5rem;
     }
-  }
-}
 
-.d-flex {
-  display: flex;
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover {
+        color: cornflowerblue;
+      }
+    }
+  }
 }
 
 @mixin grid {

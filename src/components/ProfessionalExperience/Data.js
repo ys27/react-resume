@@ -9,14 +9,16 @@ const Data = [
       {
         mainLine: {
           project: 'Developer Studio',
-          stack: ['MERN', 'GraphQL', 'Sass'],
+          url: 'https://developer.fiserv.com',
+          stack: ['MERN', 'GraphQL', 'Sass', 'Java'],
         },
         subLines: [
-          'Built production-level financial features to attract and contract with external companies.',
-          'Ownership of features - from writing the architectural document to implementation.',
-          'Resolved pen tests and security vulnerabilities.',
-          'Collaboration with external teams to co-develop features.',
-          'Guided internal squad & sprint management.',
+          'Saved millions of dollars annually by absorbing internal products into a single platform.',
+          'Led internal squads & delegated tasks to achieve results prior to deadlines.',
+          'Built production-level financial features to support and contract with external parties.',
+          'Ownership of features - from architecture to implementation, testing, and deployment.',
+          'Collaborated with external teams to understand requirements and limitations.',
+          'Integrated AI solutions to improve user experience.'
         ],
       },
     ],
@@ -25,25 +27,18 @@ const Data = [
     title: {
       company: 'IBM',
       durations: ['Oct 2018 - Feb 2021'],
-      roles: ['Full-stack Developer', 'Scrum Master'],
+      roles: ['Full-stack Developer'],
     },
     descriptions: [
       {
         mainLine: {
-          project: 'Safer Payments',
-          stack: ['React/Redux/Sagas', 'TS', 'Sass', 'C++', 'Python'],
-        },
-        subLines: ['Prod level full-stack feature development/maintenance.'],
-      },
-      {
-        mainLine: {
           project: 'Entity Enrichment',
-          stack: ['MERN/Redux', 'Custom Packages'],
+          stack: ['MERN/Redux'],
         },
         subLines: [
-          'Designed and built various entity enrichment methods for prod level APIs & demo UI.',
+          'Designed and built various entity enrichment methods for production APIs & demo UI.',
           'Owned and managed a stand-alone entity enrichment micro-service.',
-          'Wrote a published paper for novel entity enrichment ideas.',
+          'Wrote a published paper (patented) for novel entity enrichment ideas.',
         ],
       },
       {
@@ -51,7 +46,7 @@ const Data = [
           project: 'Transaction List Screening',
           stack: ['React/Redux/Sagas', 'Mongo', 'Flask'],
         },
-        subLines: ['Prod level full-stack feature development/maintenance.'],
+        subLines: ['Production-level full-stack feature development.'],
       },
       {
         mainLine: {
@@ -59,6 +54,7 @@ const Data = [
           stack: ['React/Redux', 'Java', 'CouchDB'],
         },
         subLines: [
+          'Studied the pre-defined Open Banking specifications.',
           'Designed and built micro-services with authenticated APIs + UI to visualize concepts.',
         ],
       },

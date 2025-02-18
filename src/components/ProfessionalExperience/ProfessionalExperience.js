@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import SectionTitle from "../SectionTitle/SectionTitle";
-import Data from "./Data";
+import SectionTitle from '../SectionTitle/SectionTitle';
+import Data from './Data';
 
-import "./ProfessionalExperience.scss";
+import './ProfessionalExperience.scss';
 
 const ProfessionalExperience = () => (
   <div className="professional-experiences">
@@ -52,10 +52,17 @@ const ExperienceDesc = ({ descriptions }) => (
   <div className="experience-desc">
     {descriptions.map((desc, descIndex) => (
       <React.Fragment key={descIndex}>
-        <div className="d-flex">
-          <div className="main-line-project">{`${desc?.mainLine?.project}`}</div>
-          <div className="main-line-stack">{`[${desc?.mainLine?.stack?.join(
-            ", "
+        <div className="title">
+          {desc?.mainLine?.url ? (
+            <a
+              href={desc?.mainLine?.url}
+              target="_blank"
+              rel="noopener noreferrer">{`${desc?.mainLine?.project}`}</a>
+          ) : (
+            `${desc?.mainLine?.project}`
+          )}
+          <div className="stack">{`[${desc?.mainLine?.stack?.join(
+            ', '
           )}]`}</div>
         </div>
         <ul>

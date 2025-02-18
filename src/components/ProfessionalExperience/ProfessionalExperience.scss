@@ -1,11 +1,6 @@
 @import "src/App";
 
 .professional-experiences {
-  .section-title {
-    padding-bottom: 0.5rem;
-    // border-bottom: 1px solid grey;
-  }
-
   .experiences {
     @include grid;
     gap: 0rem 0.75rem;
@@ -28,17 +23,22 @@
         margin-bottom: 0;
         padding-left: 1rem;
 
-        .main-line-project {
-          text-decoration: underline;
+        .title {
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+          // text-decoration: underline;
         }
 
-        .main-line-stack {
+        .stack {
           margin-left: 0.25rem;
           font-weight: bold;
+          font-size: 0.8rem;
         }
 
         .subline {
           margin-left: 0.25rem;
+          font-size: 0.9rem;
         }
       }
     }

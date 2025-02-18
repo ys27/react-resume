@@ -1,6 +1,6 @@
 @import "src/App";
 
-.recent-projects {
+.side-projects {
   @include side-title-border;
   @include grid;
 
@@ -25,5 +25,14 @@
         }
       }
     }
+  }
+}
+
+.more-projects {
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    margin-left: 0.25rem;
   }
 }

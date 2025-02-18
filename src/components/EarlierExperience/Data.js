@@ -15,14 +15,14 @@ const Data = [
   },
   {
     title: {
-      company: "Gov't of Ontario",
+      company: "Gov't of ON",
       durations: ['May 2015 - Aug 2015'],
       role: 'Web Developer',
     },
   },
   {
     title: {
-      company: 'Manulife Financial',
+      company: 'Manulife',
       durations: ['Sept 2014 - Dec 2014'],
       role: '.NET Dev / DBA',
     },

@@ -5,7 +5,7 @@ import SubInfo from "./components/SubInfo/SubInfo";
 import Skills from "./components/Skills/Skills";
 import ProfessionalExperience from "./components/ProfessionalExperience/ProfessionalExperience";
 import EarlierExperience from "./components/EarlierExperience/EarlierExperience";
-import RecentProjects from "./components/RecentProjects/RecentProjects";
+import SideProjects from "./components/SideProjects/SideProjects";
 import Education from "./components/Education/Education";
 // import Keywords from "./components/Keywords/Keywords";
 
@@ -31,7 +31,7 @@ const Resume = () => (
       <Skills />
       <ProfessionalExperience />
       <EarlierExperience />
-      <RecentProjects />
+      <SideProjects />
       <Education />
     </div>
     {/* <Keywords /> */}

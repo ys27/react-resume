@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
-import SectionTitle from "../SectionTitle/SectionTitle";
-import Data from "./Data";
+import SectionTitle from '../SectionTitle/SectionTitle';
+import Data from './Data';
 
-import "./EarlierExperience.scss";
-import "../ProfessionalExperience/ProfessionalExperience.scss";
+import './EarlierExperience.scss';
+import '../ProfessionalExperience/ProfessionalExperience.scss';
 
 const EarlierExperience = () => (
   <div className="earlier-experience">
-    <SectionTitle title="Earlier Experience (Co-op)" />
+    <SectionTitle title="Earlier Experience" />
     <div className="experiences">
       {Data.map((experience, index) => (
         <EarlierExperienceCard key={index} title={experience.title} />
